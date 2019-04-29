@@ -19,3 +19,14 @@ div .formula-container {
     width: 25%; }
   100% {
     width: 85%; } }
+
+@media screen and (max-width: 1100px) {
+  .formula-cards {
+    grid-column-gap: 5%;
+    grid-template-columns: 45% 45%; } }
+
+@media screen and (max-width: 750px) {
+  .formula-cards {
+    grid-column-gap: 5%;
+    grid-template-columns: 95%;
+    max-width: 350px; } }
